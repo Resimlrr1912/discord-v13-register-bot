@@ -1,4 +1,4 @@
 module.exports = {
-token : "1",
+token : "",
 prefix : "mr!"
 }
