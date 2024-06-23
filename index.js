@@ -42,7 +42,7 @@ client.on('ready', async () => {
     console.log(`LavbinMR`)
     console.log(`TAMAM`)
 })
-client.login(config.token);
+client.login(process.env.TOKEN);
   
 
 
