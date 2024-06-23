@@ -39,8 +39,8 @@ const jailrol = db.get(`jailrol`);
 client.on('ready', async () => {
     console.log(`--------------------------------`)
     console.log(`${client.user.tag} ismi ile giriş yapıldı.`)
-    console.log(`Parsher youtube.`)
-    console.log(`Altyapıları paylaşırsanız ve ya satarsanız gerekli işlemler uygulanır.`)
+    console.log(`LavbinMR`)
+    console.log(`TAMAM`)
 })
 client.login(config.token);
   
