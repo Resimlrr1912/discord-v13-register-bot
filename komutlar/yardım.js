@@ -4,7 +4,7 @@ const prefix = config.prefix;
 exports.run = async (client, message, args) => {
   
   const yt = new MessageButton().setLabel('Sunucu Kurallarımız').setStyle('LINK').setURL('https://discord.com/channels/1086678846016860242/1218638890953474130');
-  const dc = new MessageButton().setLabel('Parsher Discord').setStyle('LINK').setURL('https://discord.gg/bdfd');
+  const dc = new MessageButton().setLabel('LavbinMR').setStyle('LINK').setURL('https://discord.gg/bdfd');
   const destek = new MessageButton().setLabel('Destek').setStyle('LINK').setURL('http://parsher.xyz');
   const row = new MessageActionRow().addComponents(dc, yt, destek)
   const embed = new MessageEmbed()
